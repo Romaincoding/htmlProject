@@ -1,0 +1,53 @@
+body{ background-image: url("images/espace2.jpg");
+    background-size: 100%;
+        
+    }
+    
+    h1{
+        color:white;
+        font-family: Helvetica, sans-serif;
+        font-size: 4em;
+        padding-left: 5%;
+    }
+    
+    h2{
+        color:white;
+        font-family: Helvetica;
+        font-size: 3em;
+        text-align: center;
+        text-shadow: white 1px 0 20px;
+    }
+    i{
+        text-shadow: white 1px 0 10px;
+    }
+    p{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+       
+    
+    }
+    iframe{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+    .avis{
+        width: 100%;
+        position: relative;
+    }
+    
+    .pour{
+        width: 30%;
+        position: absolute;
+        left: 10%;
+    }
+    
+    .contre{
+        width: 30%;
+        position: absolute;
+        right: 10%;
+    } 
+    
+    
