@@ -1,0 +1,16 @@
+.fondMiserables{
+    background-image: url("images/lahaine.jpg");
+    background-size: 100%;
+    color:rgb(250, 250, 250);
+}
+
+.titre{
+    font-style: oblique;
+    position: relative;
+    left: 80px;
+
+}
+
+.texte{
+    float: right;
+}

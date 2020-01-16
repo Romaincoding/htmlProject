@@ -129,5 +129,10 @@ body{ background-image: url("images/citée.jpg");
         position: absolute;
         right: 10%;
     } 
-    
+    .map{
+      position: absolute;
+      bottom: 30%;
+      right: 3%;
+      color: white;
+    }
     
