@@ -30,19 +30,26 @@ iframe{
 
 
 .avis{
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.content-center{
     width: 100%;
-    position: relative;
+    display: inline-block;
 }
 
 .pour{
     width: 30%;
-    position: absolute;
-    left: 10%;
+    float: left;
+
 }
 
 .contre{
     width: 30%;
-    position: absolute;
-    right: 10%;
+    float: right;
 } 
 
