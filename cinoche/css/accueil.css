@@ -1,21 +1,6 @@
 body {
   font-family: Helvetica, Arial, sans-serif;
-  background-color: rgb(236, 236, 236);
   margin: 1em;
-  color: rgb(19, 51, 61);
-}
-
-p {
-  font-size: 18px;
-  line-height: 1.5;
-  font-weight: bold;
-  color: rgb(51, 51, 51);
-  max-width: 55em;
-}
-
-p a {
-  color: rgb(41, 183, 206);
-  text-decoration: none;
 }
 
 strong { color: rgb(41, 183, 206); }
@@ -34,8 +19,8 @@ nav ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  max-height: 88px; /* Menu height x 2 */
-  position: relative; /* Position the menu button relative to this item */
+  max-height: 88px;
+  position: relative;
 }
 
 nav li { display: inline-block; }
@@ -49,21 +34,22 @@ nav a {
   text-decoration: none;
   text-transform: uppercase;
   white-space: nowrap;
-  line-height: 44px; /* Menu height */
-  height: 44px; /* Menu height */
+  line-height: 44px;
+  height: 44px;
 }
 
 nav a:hover { background-color: rgba(255, 255, 255, 0.08); }
 
-nav li:last-child { /* The menu button */
-  position: absolute; /* Move the menu button out of flow */
+nav li:last-child { 
+  position: absolute; 
   right: 0;
-  bottom: 44px; /* Move upwards, the same distance as the menu height */
+  bottom: 44px; 
   background-image: linear-gradient(to right, rgba(19, 51, 61, 0) 0, rgba(19, 51, 61, 1) 2em);
   padding-left: 3em;
 }
 
-nav li:nth-last-child(2) { /* The close button */ display: none; }
+nav li:nth-last-child(2) {
+  display: none; }
 
 nav#menu:target {
   height: auto;
