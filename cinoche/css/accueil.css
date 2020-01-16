@@ -5,6 +5,13 @@ body {
 
 strong { color: rgb(41, 183, 206); }
 
+.test{
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 nav {
   font-size: 12px;
   background-color: rgb(19, 51, 61);
