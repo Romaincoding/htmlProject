@@ -75,6 +75,8 @@ nav#menu:target li:nth-last-child(2) {
 }
 body{
 	background: #3e3940;
+	background-image: url(images/cinema.jpg);
+	background-size: cover;
 	font-family: Helvetica, sans-serif;
 }
 .contactform{
