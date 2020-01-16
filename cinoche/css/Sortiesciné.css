@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+}
+
+.container{
+    background-image: url("images/felix-mooneeram-evlkOfkQ5rE-unsplash.jpg");
+    background-size: 100%;
+    color: cornsilk;
+   
+
+}
+
+h1{
+    color: darkred;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+}
+
+a :hover{
+    color: deepskyblue;
+    transition: ease-in-out;
+    transition-duration: 1s;
+}

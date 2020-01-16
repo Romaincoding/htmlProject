@@ -2,20 +2,35 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-   
+    <link rel="stylesheet" type="text/css" href="css/accueil.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css%22%3E
     <title>Accueil</title>
 </head>
-<body>
-<h1>CINOCHE</h1>
 <header>
-<h2>Sorties de la semaine</h2>
-<h2>Encore à l'affiche</h2>
-<h2>Sorties dvd</h2>
-<h2>Interviews</h2>
+    <h1>CINOCHE</h1> 
 </header>
 
-<h3>Qui sommes nous?</h3> 
-<h4>Contactez nous</h4>
-    
+<body id="pageAcceuil">
+
+<div class="topnav" id="myTopnav">
+  <a href="accueil.html" class="active">Accueil</a>
+  <a href="Sortiesciné.html">Sorties</a>
+  <a href="#contact">Contactez nous</a>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 </body>
 </html>
