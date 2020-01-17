@@ -87,3 +87,8 @@ nav {
 .color{
     color: white;
 }
+
+body{
+  font-family: Helvetica, sans-serif;
+  color: white;
+}
